@@ -8,3 +8,15 @@ Game starts with the ball in center while paddles on their positions.
 The ball moves in random position if it hits top or bottom, it is reflected.
 The player must has to hit with the paddle if this collision doesn't occurs and the ball goes out from the left or right side of the width of the screen a message will be displayed on the screen "Game Over".
 
+To run this file on Ubuntu, run the following commands:
+sudo apt update
+sudo apt install python3
+Check the version by this command:
+python3 --version
+
+Install tkinter:
+
+sudo apt install python3-tk
+
+Open the folder containing this file and run this command: 
+python3 arcadeGame.py
